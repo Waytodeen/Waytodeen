@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>way to deen</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+
+    crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Marck+Script&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Days+One&display=swap" rel="stylesheet">
+
+   <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+    <section class="bus">
+
+    <nav class="navbar">
+
+        <span class="open-slide">
+
+            <a href="#" onclick="openslide()">
+
+                <svg width="30" height="30">
+
+                    <path class="b1" d="M0,5 30,5" stroke="#fc3824" stroke-width="5"/>
+
+                    <path class="b2" d="M0,14 30,14" stroke="#fc3824" stroke-width="5"/>
+
+                    <path class="b3" d="M0,23 30,23" stroke="#fc3824" stroke-width="5"/>
+
+                </svg>
+
+            </a>
+
+        </span>
+
+        </nav>
+
+        <div id="side-menu" class="side-nav">
+
+            <a href="#" class="btn-close" onclick="closeslide()">&times;</a>
+
+            <a href="#">Home</a>
+
+               <a href="#about">About</a>
+
+                  <a href="#">Images</a>
+
+        </div>
+
+        <script>
+
+            function openslide(){
+
+  document.getElementById('side-menu').style.width="150px";
+
+           }
+
+             function closeslide(){
+
+  document.getElementById('side-menu').style.width="0";     
+
+            }
+
+            
+
+            let nCount = selector => {
+
+  $(selector).each(function () {
+
+    $(this)
+
+      .animate({
+
+        Counter: $(this).text()
+
+      }, {
+
+        // A string or number determining how long the animation will run.
+
+        duration: 4000,
+
+        // A string indicating which easing function to use for the transition.
+
+        easing: "swing",
+
+        /**
+
+         * A function to be called for each animated property of each animated element. 
+
+         * This function provides an opportunity to
+
+         *  modify the Tween object to change the value of the property before it is set.
+
+         */
+
+        step: function (value) {
+
+          $(this).text(Math.ceil(value));
+
+        }
+
+      });
+
+  });
+
+};
+
+let a = 0;
+
+$(window).scroll(function () {
+
+  // The .offset() method allows us to retrieve the current position of an element  relative to the document
+
+  let oTop = $(".numbers").offset().top - window.innerHeight;
+
+  if (a == 0 && $(window).scrollTop() >= oTop) {
+
+    a++;
+
+    nCount(".rect > h1");
+
+  }
+
+});
+
+        </script>
+
+        <h1>Way to deen</h1>
+
+        <img class="bg" src="1.jpg">
+
+        <b>
+
+        <p class="begin">When Allah pushes you to the edge,<br> Trust him fully  because only two things can happen. <br>
+
+        Either he will catch you or <br>he will make you learn how to fly.</p>
+
+        </b>
+
+      </section>
+
+      <section class="abt">
+
+        <div id="about">
+
+        <h2>ABOUT</H2>
+
+        <img class="abt-img" src="abt.jpg">
+
+        <p class="about">Hey Guys... <br>
+
+         Assalamu Alaikum. <br>Today is an exciting day for me. Because finally,
+
+         I’m posting some inspirational and beautiful Islamic quotes about life with pictures. Oh… 
+
+         Readers must be thinking what is the point to be excited about Islamic quote. Well, whenever I’m sad,
+
+          happy, depressed, confused, or facing any problem. As a being Muslim I try to find the solution in a religious
+
+           way and sometimes I search for Islamic quotes images also, for my current situation or problem. 
+
+        These types of Islamic life quotes boost my Imaan in the best way and Inspires me to
+
+         face the situation rather than Facebooking them
+
+         Following Islamic quotes are not only my favorite but they are also popular quotes. Most of you guys have seen these Muslim quotes on social media sites. These Short inspirational quotes are really worth reading and spreading. Share your Islamic Quotes collection with me. or suggest 
+
+         me some more short Islamic quotes so that I could update this post</p>
+
+    </div>
+
+    </section>
+
+    <section class="abt">
+
+    <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+
+    <div class="rect">
+
+    <h1>45</h1>
+
+    <p>posts</p>
+
+    </div>
+
+    <div class="rect">
+
+    <h1>30</h1>
+
+    <p>Ramadan posts</p>
+
+    </div>
+
+    </section>
+
+    <section class="abt">
+
+    <h2>POSTS</h2>
+
+    <div class="posts">
+
+    <div>
+
+    <img class="image"src="22.jpg">
+
+    <button href="2.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image" src="3.jpg">
+
+    <button href="3.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="4.jpg">
+
+    <button href="4.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="5.jpg">
+
+    <button href="5.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="6.jpg">
+
+    <button href="6.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="7.jpg">
+
+    <button href="7.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="8.jpg">
+
+    <button href="8.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="9.jpg">
+
+    <button href="9.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="10.jpg">
+
+    <button href="10.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="11.jpg">
+
+    <button href="11.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="12.jpg">
+
+    <button href="12.jpg" download>Download</button>
+
+    <div>
+
+    </div>
+
+    </section>
+
+    <section class="abt">
+
+    <h2>RAMADAN POSTS</h2>
+
+    <div class="posts">
+
+   <div>
+
+    <img class="image"src="111.jpg">
+
+    <button href="111.jpg<" download>Download</button>
+
+    <div> 
+
+    <div>
+
+    <img class="image"src="222.jpg">
+
+    <button href="222.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="33.jpg">
+
+    <button href="33.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="44.jpg">
+
+    <button href="44.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="55.jpg">
+
+    <button href="55.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="66.jpg">
+
+    <button href="66.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="77.jpg">
+
+    <button href="77.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="88.jpg">
+
+    <button href="88.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="99.jpg">
+
+    <button href="99.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="100.jpg">
+
+    <button href="100.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="101.jpg">
+
+    <button href="101.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="102.jpg">
+
+    <button href="102.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="103.jpg">
+
+    <button href="103.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="104.jpg">
+
+    <button href="104.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="105.jpg">
+
+    <button href="105.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="106.jpg">
+
+    <button href="106.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="107.jpg">
+
+    <button href="107.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="108.jpg">
+
+    <button href="108.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="109.jpg">
+
+    <button href="109.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="120.jpg">
+
+    <button href="120.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="121.jpg">
+
+    <button href="121.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="122.jpg">
+
+    <button href="122.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="123.jpg">
+
+    <button href="123.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="124.jpg">
+
+    <button href="124.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="126.jpg">
+
+    <button href="126.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="127.jpg">
+
+    <button href="127.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="128.jpg">
+
+    <button href="128.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="129.jpg">
+
+    <button href="129.jpg" download>Download</button>
+
+    <div>
+
+    <div>
+
+    <img class="image"src="130.jpg">
+
+    <button href="130.jpg" download>Download</button>
+
+    <div>
+
+    </div>
+
+    </section>
+
+    <footer>
+
+    <h1>connect with us</h1>
+
+    <div class="column text-light">
+
+            <i class="fab fa-facebook-f"></i>
+
+            <i class="fab fa-instagram" href="www.instagram.com/_way_to_deen_"></i>
+
+            <i class="fab fa-twitter"></i>
+
+            <i class="fab fa-youtube" href="https://www.youtube.com/channel/UCFlC9L7OyDn35hZNKrPJBxg"></i>
+
+          </div>
+
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
+
