@@ -90,7 +90,7 @@ B{
 	line-height:30px;
 	padding-bottom:15px;
 }
-H1{
+H1{     font-size:5rem;
 	color:#26d07c;
 	font-family: 'Days One', sans-serif;
 }
