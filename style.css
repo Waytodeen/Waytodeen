@@ -165,6 +165,6 @@ footer .column a {
   Text-align:center ;
   Margin-left:8px;
 }
-footer .column a + a {
+footer .column a+a {
   padding: 0 0.2em;
 }
