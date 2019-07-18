@@ -76,7 +76,7 @@ B{
 	position:relative ;
 	top:0;
 	left:0;
-	-webkit-animation:move 7s ;
+	-webkit-animation:move 15s ;
 	-webkit-animation-iteration-count:infinite ;
 	-webkit-animation-delay:0.5s ;
 }
