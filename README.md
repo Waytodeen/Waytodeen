@@ -1,2 +1,2 @@
-# Waytodeen it is a educating Instagram page
+# Waytodeen it is a educating Instagram page.
 
