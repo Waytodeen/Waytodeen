@@ -205,6 +205,10 @@ footer .column a+a {
   }
 
 }
+.desktop {
+	
+	display: none;
+}
 
 @media screen and (min-width: 700px) {
 	body{
