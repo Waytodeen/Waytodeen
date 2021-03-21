@@ -205,3 +205,21 @@ footer .column a+a {
   }
 
 }
+
+@media screen and (min-width: 700px) {
+	body{
+		align-items: center;
+		text-align: center;
+	}
+	.bus,.abt {
+	  display: none;
+	 
+	}
+	.desktop{
+	 display: inline;
+	
+	}
+	.desktop img{
+		width: 20%;
+	}
+  }
