@@ -1,2 +1,3 @@
-# Waytodeen it is a educating Instagram page
+# Waytodeen it is a page for islamic quotes
+[link](www.waytodeen.ga)
 
