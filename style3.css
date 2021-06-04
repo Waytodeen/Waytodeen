@@ -68,7 +68,7 @@ H1,h2{
        Align-content:center;
 }
 B{
-    padding-top: 200px;
+    padding-top: 250px;
 	float:left ;
 	overflow:hidden ;
 	position:relative ;
@@ -153,7 +153,7 @@ H1{
 	box-shadow:2px 4px 5px black;
 }
 .about{
-    width: 80%;
+    width: 100%;
 }
 button {
     font-size: 14px;
