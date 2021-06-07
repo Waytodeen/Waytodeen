@@ -96,7 +96,7 @@ H1{
 }
 .abt-img{
 	width:90%;
-	height:25%;
+	height:100%;
 	Margin-left:5px ;
 }
 @keyframes move
@@ -153,7 +153,7 @@ button {
 }
 footer {
 	width:100%;
-  background: rgba(0, 0, 0, 0.815);
+  background: rgba(252, 252, 252, 0.815);
   overflow-x: hidden;
   padding: 10vmin 15vmin;
 }
@@ -224,6 +224,6 @@ footer .column a+a {
 	
 	}
 	.desktop img{
-		width: 20%;
+		width: 100%;
 	}
   }
