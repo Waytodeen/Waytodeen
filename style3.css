@@ -170,6 +170,8 @@ footer {
   background: rgba(0, 0, 0, 0.815);
   overflow-x: hidden;
   padding: 10vmin 15vmin;
+  text-align: center;
+  align-items: center;
 }
 footer .column a {
   color: #dd2476;
