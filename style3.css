@@ -14,42 +14,10 @@ body {
 	padding-bottom:180px;
 	background-attachment:fixed;
 }
-.navbar{
-    margin:10px;
-}
-.side-nav{
-    height:40%;
-    width:0;
-    position:fixed;
-    z-index:1;
-    top:20px;
-    left:20px;
-    background-color:#fc3824;
-    overflow-x:hidden ;
-    padding-top:60px;
-    transition:0.5s;
-}
+
+
 P {
     padding:10px;
-}
-.side-nav a{
-    padding:10px 10px 10px 30px;
-    text-decoration:none;
-    font-size:22px;
-    color:#ccc;
-    display:block;
-    transition:0.3s;
-}
-.side-nav .btn-close{
-    position:absolute ;
-    top:0;
-    right:22px;
-    font-size:36px;
-    margin-left:50px;
-}
-.side-nav a:hover{
-    color:black;
-    border-bottom:2px solid yellow;
 }
 .name{
 	Align-content:center;
@@ -73,19 +41,18 @@ B{
 	height:100px;
 }
 .begin{
-    padding-top: 1em;
-    width: 820px;
+  /*  padding-top: 1em;
+    width: 820px;?
 	text-align:center;
 	font-family: 'Marck Script', cursive;
 	font-size:15px;
 	line-height:30px;
 	white-space:nowrap ;
-	position:relative ;
-	top:0;
-	left:0;
+	position:relative ;*/
+	color: rgb(138, 230, 0);
 	-webkit-animation:move 15s ;
 	-webkit-animation-iteration-count:infinite ;
-	-webkit-animation-delay:0.5s ;
+	-webkit-animation-delay:0.1s ;
 }
 .abt{
     align-items: center;
@@ -226,13 +193,24 @@ footer .column a+a {
 	display: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 700px) {
 	body{
 		align-items: center;
 		text-align: center;
 	}
-	.bus,.abt,.reviews-area {
-	  display: none;
+	.begin{
+		  padding-top: 1em;
+		  width: 820px;
+		  text-align:center;
+		  font-family: 'Marck Script', cursive;
+		  font-size:15px;
+		  line-height:30px;
+		  white-space:nowrap ;
+		  position:relative ;
+		  -webkit-animation:move 15s ;
+		  -webkit-animation-iteration-count:infinite ;
+		  -webkit-animation-delay:0.1s ;
+	  }
 	 
 	}
 	.desktop{
@@ -241,5 +219,30 @@ footer .column a+a {
 	}
 	.desktop img{
 		width: 20%;
+	}
+  }
+
+  button:focus {
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+	padding-top: 1%;
+  }
+  
+  a {
+	color: #3498db;
+  }
+  
+  a:hover {
+	color: #5faee3;
+	text-decoration: none;
+  }
+  
+/*--------------------------------------------------------------
+# Disable AOS delay on mobile
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+	[data-aos-delay] {
+	  transition-delay: 0 !important;
 	}
   }
