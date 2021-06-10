@@ -3,6 +3,12 @@ body {
     padding:0;
     Background-color:#dbe2e9;
 }
+/*--------------------------------------------------------------
+# dark mode
+--------------------------------------------------------------*/
+.dark-mode {
+    filter: invert(1) hue-rotate(180deg);
+}
 .bus{
 	background:white;
 	margin:15px;
@@ -11,6 +17,35 @@ body {
 	padding-bottom:180px;
 	background-attachment:fixed;
 }
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+	position: fixed;
+	display: none;
+	right: 15px;
+	bottom: 15px;
+	z-index: 99999;
+  }
+  
+  .back-to-top i {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+	background: #3498db;
+	color: #fff;
+	transition: all 0.4s;
+  }
+  
+  .back-to-top i:hover {
+	background: #57aae1;
+	color: #fff;
+  }
+  
 .navbar{
     margin:10px;
 }
