@@ -17,7 +17,6 @@ body {
 	padding-bottom:180px;
 	background-attachment:fixed;
 }
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -126,8 +125,6 @@ B{
 	text-align:justify;
 	line-height:30px;
 	padding-bottom:15px;
-	display: none;
-	visibility: hidden;
 }
 H1{    
 	color:#26d07c;
@@ -265,5 +262,4 @@ footer .column a+a {
 	.desktop img{
 		width: 100%;
 	}
-	
   }
