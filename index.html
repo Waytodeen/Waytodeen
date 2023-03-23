@@ -4,13 +4,19 @@
         <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta author='jabir' keyword='waytodeen,isllamicquotes,quotes,muslimquotes'>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>way to deen</title>
+        <script data-ad-client="ca-pub-6292039340026582" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- adsense -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6292039340026582"
+     crossorigin="anonymous"></script>
+        <!-- ---------------------- -->
+        
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
     crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style3.css">
         <link href="https://fonts.googleapis.com/css?family=Marck+Script&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Days+One&display=swap" rel="stylesheet">
@@ -19,7 +25,25 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
+<link rel="stylesheet" href="style2.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
 
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet"/>
+      <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
+      <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143951021-1"></script>
 
 <script>
@@ -35,32 +59,40 @@
 </script>
     </head>
     <body>
-    <section class="bus">
-    <nav class="navbar">
-        <span class="open-slide">
-            <a href="#" onclick="openslide()">
-                <svg width="30" height="30">
-                    <path class="b1" d="M0,5 30,5" stroke="#fc3824" stroke-width="5"/>
-                    <path class="b2" d="M0,14 30,14" stroke="#fc3824" stroke-width="5"/>
-                    <path class="b3" d="M0,23 30,23" stroke="#fc3824" stroke-width="5"/>
-                </svg>
+         <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center">
+        <div class="logo mr-auto">
+          <h1 class="text-light">
+            <a href="index.html">
+              <h1 class="hd">Way to deen</h1>
             </a>
-        </span>
-        </nav>
-        <div id="side-menu" class="side-nav">
-            <a href="#" class="btn-close" onclick="closeslide()">&times;</a>
-            <a href="index.html">Home</a>
-               <a href="#about">About</a>
-                  <a href="#images">Images</a>
+          </h1>
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
-        <script>
-            function openslide(){
+
+        <nav class="nav-menu d-none d-lg-block">
+          <!-- <a class="navbar-brand" href=""><img src="/assets/img/favicon/favicon-32x32.png" alt=""></a> -->
+          <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#aboutway">About</a></li>
+            <li><a href="#portfolio">Posts</a></li> 
+          </ul>
+        </nav>
+        <!-- .nav-menu -->
+      </div>
+    </header>
+    <!-- End Header -->
+  
+        
+      <!--      function openslide(){
   document.getElementById('side-menu').style.width="150px";
            }
              function closeslide(){
   document.getElementById('side-menu').style.width="0";     
             }
-            
+            -->
+            <script>
             let nCount = selector => {
   $(selector).each(function () {
     $(this)
@@ -68,7 +100,7 @@
         Counter: $(this).text()
       }, {
         // A string or number determining how long the animation will run.
-        duration: 4000,
+        duration: 3000,
         // A string indicating which easing function to use for the transition.
         easing: "swing",
         /**
@@ -94,266 +126,764 @@ $(window).scroll(function () {
 });
 
         </script>
-        <h1 class="hd">Way to deen</h1>
-        <img class="bg" src="1.jpg">
-        <b>
-        <p class="begin"><br>   </br>When Allah pushes you to the edge,<br> Trust him fully  because only two things can happen. <br>
-        Either he will catch you or <br>he will make you learn how to fly.</p>
+     <!--   <h1 class="hd">Way to deen</h1>-->
+  
+
+ <!-- ======= About Section ======= -->
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div
+          class="col-lg-6 pt-8 pt-lg-0 order-2 order-lg-1 d-flex flex-column
+          justify-content-center">
+          <b>
+          <h1 class="begin" data-aos="fade-up"></br>When Allah pushes you to the edge,
+            <br> Trust him fully  because only two things can happen. <br>
+            Either he will catch you or <br>he will make you learn how to fly
+          </h1>
         </b>
-      </section>
-      <section class="abt">
-        <div id="about">
-        <h2>ABOUT</H2>
-        <img class="abt-img" src="abt.jpg">
-        <p class="about">Hey Guys... <br>
-         Assalamu Alaikum. <br>Today is an exciting day for me. Because finally,
-         I’m posting some inspirational and beautiful Islamic quotes about life with pictures in this page named waytodeen. Oh… 
-         Readers must be thinking what is the point to be excited about Islamic quote. Well, whenever I’m sad,
-          happy, depressed, confused, or facing any problem. As a being Muslim I try to find the solution in a religious
-           way and sometimes I search for Islamic quotes images also, for my current situation or problem. 
-        These types of Islamic life quotes boost my Imaan in the best way and Inspires me to
-         face the situation rather than Facebooking them
-         Following Islamic quotes are not only my favorite but they are also popular quotes. Most of you guys have seen these Muslim quotes on social media sites. These Short inspirational quotes are really worth reading and spreading. Share your Islamic Quotes collection with me. or suggest 
-         me some more short Islamic quotes so that I could update this post</p>
+
+        </div>
+        <div
+          class="col-lg-6 order-1 order-lg-2 hero-img"
+          data-aos="fade-left"
+          data-aos-delay="200">
+          <img
+            src="1.jpg"
+            class="img-fluid animated"
+            alt=""
+            />
+        </div>
+      </div>
     </div>
-    </section>
+  </section>
+  <!-- End Hero -->
+    <!-- ======= Rviews Section ======= -->
+    <div class="reviews-area" id="aboutway">
+      <div class="row g-0">
+        <div class="col-lg-6">
+          <img src="22.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="col-lg-6 work-right-text d-flex align-items-center">
+          <div class="px-5 py-5 py-lg-0">
+            <h2>About us</h2>
+            <h5>I’m posting some inspirational and beautiful Islamic quotes about life with pictures
+                   in this page named waytodeen. Oh… 
+                  Readers must be thinking what is the point to be excited about Islamic quote. Well, 
+                  whenever I’m sad,
+                  happy, depressed, confused, or facing any problem. As a being Muslim I try to find the solution in a religious
+                  way and sometimes I search for Islamic quotes images also, for my current situation or problem. 
+               These types of Islamic life quotes boost my Imaan in the best way and Inspires me to
+                face the situation rather than Facebooking them</h5>
+            <a href="#portfolio" class="ready-btn ">More</a>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Rviews Section -->
+
     <section class="abt">
     <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
-    <div class="rect">
-    <h1>47</h1>
+    <div class="rect" id="rectangle">
+    <h1>113</h1>
     <p>posts</p>
     </div>
     <div class="rect">
-    <h1>30</h1>
+    <h1>92</h1>
     <p>Ramadan posts</p>
     </div>
     </section>
     <section class="abt">
-    <h2>POSTS</h2>
-    <div id="images" class="posts">
-  <div>
-      <div>
+    
+     
 
-    <img class="image"src="waymd.jpg">
-
-    <a href="waymd.jpg" download><button>Download</button></a>
-
-    </div><div> <p>#waytodeen #ramadanquotes#ramadan2019 #ramzan_kareem#ramzanquotes #ramzan2019#ramadan 
-
-          #allahuakbar #alhamdulillah #allah#help #sinful #islam #islamforlife#waytodeen
-
-          #onlyislam #islam #islamquotes #islampost#islamicquote</p>
-
-    </div><div>
-
-    <img class="image"src="way2.jpg">
-
-    <a href="way2.jpg" download><button>Download</button></a>
-
-    </div><div> <p>#waytodeen #ramadanquotes#ramadan2019 #ramzan_kareem#ramzanquotes #ramzan2019#ramadan 
-
-          #allahuakbar #alhamdulillah #allah#help #sinful #islam #islamforlife#waytodeen
-
-          #onlyislam #islam #islamquotes #islampost#islamicquote</p>
-
-    </div>
-    <img class="image"src="india.jpg">
-    <a href="india.jpg" download><button>Download</button></a>
-        </div><div> <p>#waytodeen #ramadanquotes#ramadan2019 #ramzan_kareem#ramzanquotes #ramzan2019#ramadan 
-          #allahuakbar #alhamdulillah #allah#help #sinful #islam #islamforlife#waytodeen
-          #onlyislam #islam #islamquotes #islampost#islamicquote</p>
-    </div>  
-<div>
-    <img class="image"src="way2.jpg">
-    <a href="way2.jpg" download><button>Download</button></a>
-    </div><div> <p>#waytodeen #ramadanquotes#ramadan2019 #ramzan_kareem#ramzanquotes #ramzan2019#ramadan 
-          #allahuakbar #alhamdulillah #allah#help #sinful #islam #islamforlife#waytodeen
-          #onlyislam #islam #islamquotes #islampost#islamicquote</p>
-    </div>
+ <!--
+ 
+    
+   
     <div>
-    <img class="image"src="way1.jpg">
-    <a href="way1.jpg" download><button>Download</button></a>
-        
-    </div>    
-    <div>
-    <img class="image"src="22.jpg">
-    <a href="22.jpg" download><button>Download</button></a>
-        <p>#muslimah#marriage#nikkah#halal#waytodeen #waytodeen#islam #islamforlife #onlyislam #islamquotes #islampost#islamicquote #quotes #muslim</p>
-    <div>
-    <div>
-    <img class="image" src="3.jpg">
-    <a href="3.jpg" download><button>Download</button></a>
-    <div>
-    <div>
-    <img class="image"src="4.jpg">
-    <a href="4.jpg" download><button>Download</button></a>
-        
-    <div>
-    <div>
-    <img class="image"src="5.jpg">
-    <a href="5.jpg" download><button>Download</button></a>
-    <div>
-    <div>
-    <img class="image"src="6.jpg">
-    <a href="6.jpg" download><button>Download</button></a>
-    <div>
-    <div>
-    <img class="image"src="7.jpg">
-    <a href="7.jpg" download><button>Download</button></a>
-        
-    <div>
-    <div>
-    <img class="image"src="8.jpg">
-    <a href="8.jpg" download><button>Download</button></a>
-       
-    <div>
-    <div>
-    <img class="image"src="9.jpg">
-        <a href="9.jpg" download><button>Download</button></a>
-    <div>
-    <div>
-    <img class="image"src="10.jpg">
-    <a href="10.jpg" download><button>Download</button></a>
-    <div>
-    <div>
-    <img class="image"src="11.jpg">
-    <a href="11.jpg" download><button>Download</button></a>
-    <div>
-    <div>
-    <img class="image"src="12.jpg">
-    <a href="12.jpg" download><button>Download</button></a>
-    <div>
+    
+  
     </div>
     </section>
     <section class="abt">
     <h2>RAMADAN POSTS</h2>
     <div class="posts">
-   <div>
-    <img class="image"src="111.jpg">
-    <a href="111.jpg<" download><button>Download</button></a>
-    <div> 
-    <div>
-    <img class="image"src="222.jpg">
-        <a href="222.jpg" download><button>Download</button></a>
-    <div>
-    <div>
-    <img class="image"src="33.jpg">
-    <a href="33.jpg" download><button>Download</button></a>
-    <div>
-    <div>
-    <img class="image"src="44.jpg">
-    <a href="44.jpg" download><button>Download</button></a>
-    <div>
-    <div>
-    <img class="image"src="55.jpg">
-    <a href="55.jpg" download><button>Download</button></a>
-       
-    <div>
-    <div>
-    <img class="image"src="66.jpg">
-    <a href="66.jpg" download><button>Download</button></a
-       
-    <div>
-    <div>
-    <img class="image"src="77.jpg">
-    <a href="77.jpg" download><button>Download</button></a>
-        
-    <div>
-    <div>
-    <img class="image"src="88.jpg">
-    <a href="88.jpg" download><button>Download</button></a>
-
-    <div>
-    <div>
-    <img class="image"src="99.jpg">
-    <a href="99.jpg" download><button>Download</button></a>
-       
-    <div>
-    <div>
-    <img class="image"src="100.jpg">
-    <a href="100.jpg" download><button>Download</button></a>
-        
-    <div>
-    <div>
-    <img class="image"src="101.jpg">
-    <a href="101.jpg" download><button>Download</button></a>
-    <div>
-    <div>
-    <img class="image"src="102.jpg">
-    <a href="102.jpg" download><button>Download</button></a>
-
-    <div>
-    <div>
-    <img class="image"src="103.jpg">
-    <a href="103.jpg" download><button>Download</button></a>
-
-    <div>
-    <div>
-    <img class="image"src="104.jpg">
-    <a href="104.jpg" download><button>Download</button></a>
-    <div>
-    <div>
-    <img class="image"src="105.jpg">
-    <a href="105.jpg" download><button>Download</button></a>
-    <div>
-    <div>
-    <img class="image"src="106.jpg">
-    <a href="106.jpg" download><button>Download</button></a>
-    <div>
-    <div>
-    <img class="image"src="107.jpg">
-    <a href="107.jpg" download><button>Download</button></a>
-    <div>
+   
+    
     <div>
     <img class="image"src="108.jpg">
     <a href="108.jpg" download><button>Download</button></a>
-    <div>
+    <div><div> <p>#waytodeen #ramadanquotes#ramadan2019 #ramzan_kareem#ramzanquotes #ramzan2019#ramadan 
+          #allahuakbar #alhamdulillah #allah#help #sinful #islam #islamforlife#waytodeen
+          #onlyislam #islam #islamquotes #islampost#islamicquote</p>
+    </div>  
     <div>
     <img class="image"src="109.jpg">
     <a href="109.jpg" download><button>Download</button></a>
-    <div>
+    <div><div> 
+    </div>  
     <div>
     <img class="image"src="120.jpg">
     <a href="120.jpg" download><button>Download</button></a>
-    <div>
+    <div><div> 
+    </div>  
     <div>
     <img class="image"src="121.jpg">
     <a href="121.jpg" download><button>Download</button></a>
-    <div>
+    <div><div> 
+    </div>  
     <div>
     <img class="image"src="122.jpg">
     <a href="122.jpg" download><button>Download</button></a>
-    <div>
+    <div><div> 
+    </div>  
     <div>
     <img class="image"src="123.jpg">
     <a href="123.jpg" download><button>Download</button></a>
         
-    <div>
+    <div><div> 
+    </div>  
     <div>
     <img class="image"src="124.jpg">
     <a href="124.jpg" download><button>Download</button></a>
-    <div>
+    <div><div>
+    </div>  
     <div>
     <img class="image"src="126.jpg">
     <a href="126.jpg" download><button>Download</button></a>
-    <div>
+    <div><div> 
+    </div>  
     <div>
     <img class="image"src="127.jpg">
     <a href="127.jpg" download><button>Download</button></a>
-    <div>
+    <div><div> 
+    </div>  
     <div>
     <img class="image"src="128.jpg">
     <a href="128.jpg" download><button>Download</button></a>
-    <div>
+    <div><div> 
+    </div>  
     <div>
     <img class="image"src="129.jpg">
     <a href="129.jpg" download><button>Download</button></a>
-    <div>
+    <div><div> 
+    </div>  
     <div>
     <img class="image"src="130.jpg">
     <a href="130.jpg" download><button>Download</button></a>
     <div>
+    </div>  
+
+
+   <!-- ======= Portfolio Section ======= -->
+   <div id="portfolio" class="portfolio-area area-padding fix">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h2>POSTS</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row wesome-project-1 fix">
+          <!-- Start Portfolio -page -->
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-three">2023</li>
+              <li data-filter=".filter-web">2021</li>
+              <li data-filter=".filter-card">2020</li>
+              <li data-filter=".filter-app">2019</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row awesome-project-content portfolio-container">
+      <!-- portfolio-item start 
+      <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-three portfolio-item">
+        <div class="single-awesome-project">
+          <div class="awesome-img">
+            <a href="#"><img src="posts/Way_23_2.png" alt="" /></a>
+            <div class="add-actions text-center">
+              <div class="project-dec">
+                <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/Way_23_2.png">
+                  <h4>2023-02</h4>
+                  <!-- <span>CLICK TO DOWNLOAD</span>-->
+                     <!--                <button onclick="window.location.href='whatsapp://send?text=Your+image+caption%0A'+encodeURIComponent(window.location.href+'posts/Way_20230323.jpeg')">
+                    Share on WhatsApp
+                    </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       portfolio-item end -->
+
+      <!-- portfolio-item start -->
+      <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-three portfolio-item">
+        <div class="single-awesome-project">
+          <div class="awesome-img">
+            <a href="#"><img src="posts/Way_20230323.jpeg" alt="" /></a>
+            <div class="add-actions text-center">
+              <div class="project-dec">
+                <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/Way_20230323.jpeg">
+                  <h4>2023-01</h4>
+                  <!--<span>CLICK TO DOWNLOAD</span>-->
+                  <button onclick="window.location.href='whatsapp://send?text=Your+image+caption%0A'+encodeURIComponent(window.location.href+'posts/Way_20230323.jpeg')">
+                    Share on WhatsApp
+                    </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- portfolio-item end -->
+          <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web portfolio-item">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2130.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2130.jpg">
+                      <h4>29</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+                   <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web portfolio-item">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2129.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2129.jpg">
+                      <h4>29</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+
+          <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2128.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2128.jpg">
+                      <h4>28</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+
+          <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2127.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2127.jpg">
+                      <h4>27</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+
+          <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2126.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2126.jpg">
+                      <h4>26</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+
+          <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2125.jpg" alt="" /></a>
+                <div class="add-actions text-center text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2125.jpg">
+                      <h4>25</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+
+          <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2124.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2124.jpg">
+                      <h4>24</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+
+          <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2123.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2123.jpg">
+                      <h4>23</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+          <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2122.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2122.jpg">
+                      <h4>22</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+          <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2121.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2121.jpg">
+                      <h4>21</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+          <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2120.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2120.jpg">
+                      <h4>20</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+          <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2119.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2119.jpg">
+                      <h4>19</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+          <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2118.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2118.jpg">
+                      <h4>18</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end --><!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2117.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2117.jpg">
+                      <h4>17</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end --><!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2116.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2116.jpg">
+                      <h4>16</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end --><!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2115.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2115.jpg">
+                      <h4>15</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+          <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2114.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2114.jpg">
+                      <h4>14</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+          <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2113.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2113.jpg">
+                      <h4>13</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+          <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2112.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2112.jpg">
+                      <h4>12</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="posts/way2111.png" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2111.png">
+                        <h4>11</h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+
+              <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2110.png" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2110.png">
+                      <h4>10</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="posts/way2109.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2109.jpg">
+                        <h4>09</h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+
+              <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2108.png" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2108.png">
+                      <h4>08</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="posts/way2107.png" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2107.png">
+                        <h4>07</h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+
+              <!-- portfolio-item start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2106.png" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2106.png">
+                      <h4>06</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+
+           <!-- portfolio-item start -->
+           <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2105.png" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2105.png">
+                      <h4>05</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+
+           <!-- portfolio-item start -->
+           <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2104.png" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2104.png">
+                      <h4>04</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+
+           <!-- portfolio-item start -->
+           <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2103.png" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2103.png">
+                      <h4>03</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+
+                     <!-- portfolio-item start -->
+           <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="posts/way2102.png" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2102.png">
+                      <h4>02</h4>
+                      <span>CLICK TO DOWNLOAD</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- portfolio-item end -->
+
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-web">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="posts/way2101.png" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="posts/way2101.png">
+                        <h4>01</h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+<!--
+  ---------------2020--------------
+-->
+
+ <!-- portfolio-item start -->
+ <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-card">
+  <div class="single-awesome-project">
+    <div class="awesome-img">
+      <a href="#"><img src="wayd1.jpg" alt="" /></a>
+      <div class="add-actions text-center">
+        <div class="project-dec">
+          <a class="portfolio-lightbox" data-gallery="myGallery" href="wayd1.jpg">
+            <h4></h4>
+            <span>CLICK TO DOWNLOAD</span>
+          </a>
+        </div>
+      </div>
     </div>
+
     </section>
            <section class="desktop">
       <div id="desktop">
@@ -363,19 +893,859 @@ $(window).scroll(function () {
       <h1>please click CNTRL + SHIFT + I</h1>
           <h2>or take your phone habeebi..</h2>
           <h2>Enjoy</h2>
+
   </div>
-  </section>
+</div>
+<!-- portfolio-item end -->     
+
+
+            <!--
+              ------------------------2019-------------------
+            -->
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="3.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="3.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->            
+
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="4.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="4.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->            
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="5.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="5.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->   
+            
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="6.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="6.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->                        
+
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="way6.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="way6.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->  
+
+                        <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="way3.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="way3.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->  
+        
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="way2.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="way2.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end --> 
+
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="way1.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="way1.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->  
+
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="8.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="8.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->  
+      
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="india.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="india.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->  
+
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="7.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="7.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->  
+                        <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="9.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="9.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->  
+
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="10.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="10.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->  
+
+                        <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="11.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="11.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->  
+
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="12.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="12.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->  
+
+
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="111.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="111.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="222.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="222.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->  
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="33.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="33.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end --> 
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="44.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="44.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->   
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="55.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="55.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end --> 
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="66.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="66.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->     
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="77.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="77.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->  
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="88.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="88.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->  
+            <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="99.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                    <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="99.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->  
+           <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="100.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                   <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="100.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+                       <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="101.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                   <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="101.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+                       <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="102.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                   <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="102.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+                       <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="103.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                   <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="103.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+                       <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="104.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                   <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="104.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+                       <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="105.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                   <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="105.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+                       <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="106.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                   <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="106.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+                       <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="107.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                   <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="107.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+                       <!-- portfolio-item start -->
+                       <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+                        <div class="single-awesome-project">
+                          <div class="awesome-img">
+                            <a href="#"><img src="108.jpg" alt="" /></a>
+                            <div class="add-actions text-center">
+                             <div class="project-dec">
+                                <a class="portfolio-lightbox" data-gallery="myGallery" href="108.jpg">
+                                  <h4></h4>
+                                  <span>CLICK TO DOWNLOAD</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- portfolio-item end -->
+
+                         <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="109.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                   <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="109.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+
+                       <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="111.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                   <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="111.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+
+                       <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="120.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                   <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="120.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+                       <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="121.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                   <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="121.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+                       <!-- portfolio-item start -->
+                       <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+                        <div class="single-awesome-project">
+                          <div class="awesome-img">
+                            <a href="#"><img src="122.jpg" alt="" /></a>
+                            <div class="add-actions text-center">
+                             <div class="project-dec">
+                                <a class="portfolio-lightbox" data-gallery="myGallery" href="122.jpg">
+                                  <h4></h4>
+                                  <span>CLICK TO DOWNLOAD</span>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- portfolio-item end -->
+                                             <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="123.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                   <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="123.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+             <!-- portfolio-item start -->
+                                   <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+                                    <div class="single-awesome-project">
+                                      <div class="awesome-img">
+                                        <a href="#"><img src="124.jpg" alt="" /></a>
+                                        <div class="add-actions text-center">
+                                         <div class="project-dec">
+                                            <a class="portfolio-lightbox" data-gallery="myGallery" href="124.jpg">
+                                              <h4></h4>
+                                              <span>CLICK TO DOWNLOAD</span>
+                                            </a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- portfolio-item end -->
+                                                         <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="126.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                   <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="126.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+                                   <!-- portfolio-item start -->
+                                   <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+                                    <div class="single-awesome-project">
+                                      <div class="awesome-img">
+                                        <a href="#"><img src="127.jpg" alt="" /></a>
+                                        <div class="add-actions text-center">
+                                         <div class="project-dec">
+                                            <a class="portfolio-lightbox" data-gallery="myGallery" href="127.jpg">
+                                              <h4></h4>
+                                              <span>CLICK TO DOWNLOAD</span>
+                                            </a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- portfolio-item end -->
+                                                         <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="128.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                   <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="128.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- portfolio-item end -->
+                                   <!-- portfolio-item start -->
+                                   <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+                                    <div class="single-awesome-project">
+                                      <div class="awesome-img">
+                                        <a href="#"><img src="129.jpg" alt="" /></a>
+                                        <div class="add-actions text-center">
+                                         <div class="project-dec">
+                                            <a class="portfolio-lightbox" data-gallery="myGallery" href="129.jpg">
+                                              <h4></h4>
+                                              <span>CLICK TO DOWNLOAD</span>
+                                            </a>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- portfolio-item end -->
+                                                         <!-- portfolio-item start -->
+            <div class="col-md-4 col-sm-4 col-xs-12 portfolio-item filter-app">
+              <div class="single-awesome-project">
+                <div class="awesome-img">
+                  <a href="#"><img src="130.jpg" alt="" /></a>
+                  <div class="add-actions text-center">
+                   <div class="project-dec">
+                      <a class="portfolio-lightbox" data-gallery="myGallery" href="130.jpg">
+                        <h4></h4>
+                        <span>CLICK TO DOWNLOAD</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+        </div>
+      </div>
+    </div><!-- End Portfolio Section -->
     <footer>
     <h1>connect with us</h1>
-    <div class="column text-light">
+    <div class="column text-light justify-content-center">
             <a class="fab fa-facebook-f" href="https://m.facebook.com/Way_to_deen_-382249422577244/?ref=bookmarks" ></a>
             <a class="fab fa-instagram" href="https://www.instagram.com/_way_to_deen_"></a>
             <a class="fab fa-twitter" href="#" ></a>
             <a class="fab fa-youtube" href="https://www.youtube.com/channel/UCFlC9L7OyDn35hZNKrPJBxg"></a>
           </div>
+          <div class="footer-area-bottom">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <div class="copyright text-center">
+                    <p>
+                      &copy; <strong></strong>. All Rights Reserved
+                    </p>
+                  </div>
+                  <div class="credits">
+                    Created with love  by <a href="https://Instagram.com/jabir_ibrahim__">JABIR B</a>
+                  </div>
+                </div>
+              </div>
+            </div>
     </footer>
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
+  
+ <!-- Vendor JS Files -->
+ <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+ <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+ <script src="assets/vendor/php-email-form/validate.js"></script>
+ <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+ <!-- Template Main JS File -->
+ <script src="assets/js/main.js"></script>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://kit.fontawesome.com/bc9d954da2.js" crossorigin="anonymous"></script>
+
+
+
+</body>
 </html>

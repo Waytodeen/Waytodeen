@@ -3,11 +3,8 @@ body {
     padding:0;
     Background-color:#dbe2e9;
 }
-/*--------------------------------------------------------------
-# dark mode
---------------------------------------------------------------*/
-.dark-mode {
-    filter: invert(1) hue-rotate(180deg);
+
+
 }
 .bus{
 	background:white;
@@ -17,71 +14,10 @@ body {
 	padding-bottom:180px;
 	background-attachment:fixed;
 }
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
-	position: fixed;
-	display: none;
-	right: 15px;
-	bottom: 15px;
-	z-index: 99999;
-  }
-  
-  .back-to-top i {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 24px;
-	width: 40px;
-	height: 40px;
-	border-radius: 14px;
-	background: #4f09f3;
-	color: rgb(255, 0, 0);
-	transition: all 0.4s;
-  }
-  
-  .back-to-top i:hover {
-	background: #04f52c;
-	color: #fff;
-  }
-  
-.navbar{
-    margin:10px;
-}
-.side-nav{
-    height:40%;
-    width:0;
-    position:fixed;
-    z-index:1;
-    top:20px;
-    left:20px;
-    background-color:#fc3824;
-    overflow-x:hidden ;
-    padding-top:60px;
-    transition:0.5s;
-}
+
+
 P {
     padding:10px;
-}
-.side-nav a{
-    padding:10px 10px 10px 30px;
-    text-decoration:none;
-    font-size:22px;
-    color:#ccc;
-    display:block;
-    transition:0.3s;
-}
-.side-nav .btn-close{
-    position:absolute ;
-    top:0;
-    right:22px;
-    font-size:36px;
-    margin-left:50px;
-}
-.side-nav a:hover{
-    color:black;
-    border-bottom:2px solid yellow;
 }
 .name{
 	Align-content:center;
@@ -92,31 +28,35 @@ H1,h2{
     Text-Transform:uppercase;
 }
 .bg{
-	width:100%;
+	width:30%;
 	height:15%;
+    margin-right: -0%;
        Align-content:center;
 }
 B{
+    padding-top: 250px;
 	float:left ;
 	overflow:hidden ;
 	position:relative ;
 	height:100px;
 }
 .begin{
+  /*  padding-top: 1em;
+    width: 820px;?
 	text-align:center;
-	font-family: sans-serif;
+	font-family: 'Marck Script', cursive;
 	font-size:15px;
 	line-height:30px;
 	white-space:nowrap ;
-	position:relative ;
-	top:0;
-	left:0;
+	position:relative ;*/
+	color: rgb(138, 230, 0);
 	-webkit-animation:move 15s ;
 	-webkit-animation-iteration-count:infinite ;
 	-webkit-animation-delay:0.1s ;
 }
-
 .abt{
+    align-items: center;
+    text-align: center;
 	background-color:white;
 	margin:15px;
 	border-style:solid #ffa9d6 ; 
@@ -126,13 +66,15 @@ B{
 	line-height:30px;
 	padding-bottom:15px;
 }
+
+
 H1{    
 	color:#26d07c;
 	font-family: 'Days One', sans-serif;
 }
 .abt-img{
-	width:90%;
-	height:100%;
+	width:40%;
+	height:25%;
 	Margin-left:5px ;
 }
 @keyframes move
@@ -169,11 +111,14 @@ H1{
 	text-align:center ;
 }
 .image{
-	width:90%;
+	width:20%;
 	Margin :15px;
 	margin-right:15px;
 	padding:15px;
 	box-shadow:2px 4px 5px black;
+}
+.about{
+    width: 100%;
 }
 button {
     font-size: 14px;
@@ -189,9 +134,11 @@ button {
 }
 footer {
 	width:100%;
-  background: rgba(252, 252, 252, 0.815);
+  background: rgba(4, 158, 247, 0.815);
   overflow-x: hidden;
   padding: 10vmin 15vmin;
+  text-align: center;
+  align-items: center;
 }
 footer .column a {
   color: #dd2476;
@@ -251,15 +198,51 @@ footer .column a+a {
 		align-items: center;
 		text-align: center;
 	}
-	.bus,.abt {
-	  display: none;
+	.begin{
+		  padding-top: 1em;
+		  width: 820px;
+		  text-align:center;
+		  font-family: 'Marck Script', cursive;
+		  font-size:15px;
+		  line-height:30px;
+		  white-space:nowrap ;
+		  position:relative ;
+		  -webkit-animation:move 15s ;
+		  -webkit-animation-iteration-count:infinite ;
+		  -webkit-animation-delay:0.1s ;
+	  }
 	 
 	}
 	.desktop{
-	 display: inline;
+	 display:block;
 	
 	}
 	.desktop img{
-		width: 100%;
+		width: 20%;
+	}
+  }
+
+  button:focus {
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+	padding-top: 1%;
+  }
+  
+  a {
+	color: #3498db;
+  }
+  
+  a:hover {
+	color: #5faee3;
+	text-decoration: none;
+  }
+  
+/*--------------------------------------------------------------
+# Disable AOS delay on mobile
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+	[data-aos-delay] {
+	  transition-delay: 0 !important;
 	}
   }

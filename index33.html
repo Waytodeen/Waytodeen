@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author='jabir' keyword='waytodeen,isllamicquotes,quotes,muslimquotes'>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>way to deen</title>
+        
+        
+        
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Marck+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Days+One&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<link rel="stylesheet" href="style2.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143951021-1"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143951021-1');
+
+</script>
+    </head>
+    <body>
+    <section class="bus">
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="#" onclick="openslide()">
+                <svg width="30" height="30">
+                    <path class="b1" d="M0,5 30,5" stroke="#fc3824" stroke-width="5"/>
+                    <path class="b2" d="M0,14 30,14" stroke="#fc3824" stroke-width="5"/>
+                    <path class="b3" d="M0,23 30,23" stroke="#fc3824" stroke-width="5"/>
+                </svg>
+            </a>
+        </span>
+        </nav>
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeslide()">&times;</a>
+            <a href="index.html">Home</a>
+               <a href="#about">About</a>
+                  <a href="#images">Images</a>
+        </div>
+        <script>
+            function openslide(){
+  document.getElementById('side-menu').style.width="150px";
+           }
+             function closeslide(){
+  document.getElementById('side-menu').style.width="0";     
+            }
+            
+            let nCount = selector => {
+  $(selector).each(function () {
+    $(this)
+      .animate({
+        Counter: $(this).text()
+      }, {
+        // A string or number determining how long the animation will run.
+        duration: 4000,
+        // A string indicating which easing function to use for the transition.
+        easing: "swing",
+        /**
+         * A function to be called for each animated property of each animated element. 
+         * This function provides an opportunity to
+         *  modify the Tween object to change the value of the property before it is set.
+         */
+        step: function (value) {
+          $(this).text(Math.ceil(value));
+        }
+      });
+  });
+};
+
+let a = 0;
+$(window).scroll(function () {
+  // The .offset() method allows us to retrieve the current position of an element  relative to the document
+  let oTop = $(".numbers").offset().top - window.innerHeight;
+  if (a == 0 && $(window).scrollTop() >= oTop) {
+    a++;
+    nCount(".rect > h1");
+  }
+});
+
+        </script>
+        <h1 class="hd">Way to deen</h1>
+        <img class="bg" src="1.jpg">
+      </section>
+
+    <section class="abt">
+    <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+    <div class="rect">
+    <h1>111</h1>
+    <p>posts</p>
+    </div>
+    <div class="rect">
+    <h1>60</h1>
+    <p>Ramadan posts</p>
+    </div>
+    </section>
+    <section class="abt">
+    <h2>Ahlan....</h2><div>
+     
+
+    <div id="images" class="posts" >
+      
+            
+
+
+
+         <div>
+    <a href="index2.html"><button>Explore</button></a>
+
+    </div><
+          
+    </div>
+   </section>
+           <section class="desktop">
+    <!--   <div id="desktop">
+      <h2>ERROR? NO HABEEBI</H2>
+      <img class="abt-img" src="abt.jpg">
+      <h2>This site is created for mobile device users</h2>
+      <h1>please click CNTRL + SHIFT + I</h1>
+      <h2>or take your phone habeebi..</h2>
+  </div>
+  </section>-->
+  <svg viewBox = "0 0 1200 300 ">
+      <symbol id="s-text">
+          <text text-anchor = "middle" x="50%" y="80%" >Waytodeen</text>
+      </symbol>
+      <g class="g-ants">
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+      </g>
+  </svg>
+  <div class="button">
+       <a href="index2.html">Explore</a>
+  </div>
+  </section>
+    <footer>
+    <h1>connect with us</h1>
+    <div class="column text-light">
+            <a class="fab fa-facebook-f" href="https://m.facebook.com/Way_to_deen_-382249422577244/?ref=bookmarks" ></a>
+            <a class="fab fa-instagram" href="https://www.instagram.com/_way_to_deen_"></a>
+            <a class="fab fa-twitter" href="#" ></a>
+            <a class="fab fa-youtube" href="https://www.youtube.com/channel/UCFlC9L7OyDn35hZNKrPJBxg"></a>
+          </div>
+    </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
