@@ -132,16 +132,7 @@ button {
     padding: 16px 40px;
     white-space: nowrap;
 }
-.filter-three button {
-	position: absolute;
-	bottom: 10px;
-	left: 50%;
-	transform: translateX(-50%);
-	background-color: #e41515;
-	padding: 5px 10px;
-	border-radius: 5px;
-	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-	transition: opacity 0.3s ease;
+.filter-three span {
 	opacity: 0;
   }
   
@@ -260,7 +251,7 @@ footer .column a+a {
 	[data-aos-delay] {
 	  transition-delay: 0 !important;
 	}
-	.filter-three button {
+	.filter-three span {
 		opacity: 1;
 	  }
   }
